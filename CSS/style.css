@@ -7,7 +7,6 @@ body{
     #CenterBox{
         width:80%;
         height:80%;
-        border:solid black 3px;
         position:absolute;
         left:10%;
         top:10%;
@@ -19,7 +18,7 @@ body{
         position:relative;
         display:flex;
         top:-55%;
-        width:25%;
+        width:100%;
         text-align:center;
     }
     #CenterBox > a{
@@ -29,6 +28,8 @@ body{
         text-decoration: none;
         transform: skewX(-15deg);
         left:10%;
+        transition:0.5s;
+        border:solid green 17%;
 
 
     }
@@ -44,7 +45,7 @@ body{
         height:100%;
         width:100%;
         position:relative;
-        filter:blur(5px);
+        filter:blur(20px);
     }
     #CenterBox > a > img:hover{
         filter:none;
@@ -55,6 +56,17 @@ body{
         color:white;
         position:absolute;
         width:100%;
+    }
+    h1{
+        text-align:center;
+        font-size:200%;
+        color:white;
+    }
+    .OwnerPhoto{
+        width:40%;
+        border-radius: 50%;
+        position:absolute;
+        right:3%;
     }
 }
 @media only screen and (max-width:719px){
