@@ -13,7 +13,7 @@ body{
         display:flex;
     }
     #CenterBox > a > p{
-        font-size:100%;
+        font-size:200%;
         text-align: center;
         position:relative;
         display:flex;
@@ -30,8 +30,6 @@ body{
         left:10%;
         transition:0.5s;
         border:solid green 17%;
-
-
     }
     #CenterBox > a:hover{
         transition:0.5s;
@@ -54,7 +52,7 @@ body{
         text-align:center;
         Font-size:200%;
         color:white;
-        position:absolute;
+        position:relative;
         width:100%;
     }
     h1{
@@ -67,6 +65,14 @@ body{
         border-radius: 50%;
         position:absolute;
         right:3%;
+    }
+    .OwnerInfo{
+        width:45%;
+        left:4%;
+    }
+    .MainInfo{
+        border: #1532d4 solid 3px;
+        height:75%;
     }
 }
 @media only screen and (max-width:719px){
