@@ -1,6 +1,6 @@
-/*Variables
+/*Variables*/
+var Hiring=true;
 
-*/
 /*functions
 
 */
@@ -8,8 +8,5 @@
 
 */
 /*Notebook
-720px+{
-    Normal Text=100%
-    Important text=200%
-}
-    */
+
+*/
