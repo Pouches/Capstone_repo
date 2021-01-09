@@ -1,0 +1,225 @@
+body{
+    background-color:#333333;
+    width: 100%;
+    height:100%
+}
+@media only screen and (min-width:720px){
+    #CenterBox{
+        width:80%;
+        height:80%;
+        position:absolute;
+        left:10%;
+        top:10%;
+        display:flex;
+    }
+    #CenterBox > a > p{
+        font-size:200%;
+        text-align: center;
+        position:relative;
+        display:flex;
+        top:-55%;
+        width:100%;
+        text-align:center;
+    }
+    #CenterBox > a{
+        width:20%;
+        position:relative;
+        height:100%;
+        text-decoration: none;
+        transform: skewX(-15deg);
+        left:10%;
+        transition:0.5s;
+        border:solid green 17%;
+    }
+    #CenterBox > a:hover{
+        transition:0.5s;
+        width:25%;
+        position:relative;
+        height:110%;
+        text-decoration: none;
+        top: -4%;
+    }
+    #CenterBox > a > img{
+        height:100%;
+        width:100%;
+        position:relative;
+        filter:blur(20px);
+    }
+    #CenterBox > a > img:hover{
+        filter:none;
+    }
+    p{
+        text-align:center;
+        Font-size:200%;
+        color:white;
+        position:relative;
+        width:100%;
+    }
+    h1{
+        text-align:center;
+        font-size:200%;
+        color:white;
+    }
+    .OwnerPhoto{
+        width:20%;
+        border-radius: 45%;
+        float:right;
+        padding-right:0%;
+        /*position:absolute;
+        right:3%;*/
+    }
+    .OwnerInfo{
+        width:45%;
+        left:4%;
+    }
+    .MainInfo{
+        border: #1532d4 solid 3px;
+        height:500px;
+        margin-right:5%;
+        margin-left:5%;
+    }
+    legend{
+        font-size:250%;
+        color:white;
+    }
+    label{
+        color:white;
+        font-size:200%;
+    }
+    fieldset{
+        border: gray dotted 3px;
+    }
+    form{
+        border: white solid 3px;
+    }
+    #YHire{
+        width:90%;
+        position:absolute;
+        left:5%;
+        display:inline-block;
+        display:none;
+    }
+    #NHire{
+        width:90%;
+        position:absolute;
+        left:5%;
+        display:none;
+    }
+    #service1{
+        float:left;
+        clear:none;
+    }
+    #service2{
+        float:right;
+        clear:none;
+    }
+}
+@media only screen and (max-width:719px){
+    body{
+        background-color:#333333;
+        width: 100%;
+        height:100%
+    }
+    
+        #CenterBox{
+            width:80%;
+            height:80%;
+            position:absolute;
+            left:10%;
+            top:10%;
+            display:flex;
+        }
+        #CenterBox > a > p{
+            font-size:100%;
+            text-align: center;
+            position:relative;
+            display:flex;
+            top:-55%;
+            width:100%;
+            text-align:center;
+        }
+        #CenterBox > a{
+            width:20%;
+            position:relative;
+            height:100%;
+            text-decoration: none;
+            transform: skewX(-15deg);
+            left:10%;
+            transition:0.5s;
+            border:solid green 17%;
+        }
+        #CenterBox > a:hover{
+            transition:0.5s;
+            width:25%;
+            position:relative;
+            height:110%;
+            text-decoration: none;
+            top: -4%;
+        }
+        #CenterBox > a > img{
+            height:100%;
+            width:100%;
+            position:relative;
+            filter:blur(20px);
+        }
+        #CenterBox > a > img:hover{
+            filter:none;
+        }
+        p{
+            text-align:center;
+            Font-size:100%;
+            color:white;
+            position:relative;
+            width:100%;
+        }
+        h1{
+            text-align:center;
+            font-size:100%;
+            color:white;
+        }
+        .OwnerPhoto{
+            width:20%;
+            border-radius: 45%;
+            float:right;
+            padding-right:0%;
+            /*position:absolute;
+            right:3%;*/
+        }
+        .OwnerInfo{
+            width:45%;
+            left:4%;
+        }
+        .MainInfo{
+            border: #1532d4 solid 3px;
+            height:500px;
+            margin-right:5%;
+            margin-left:5%;
+        }
+        legend{
+            font-size:150%;
+            color:white;
+        }
+        label{
+            color:white;
+            font-size:100%;
+        }
+        fieldset{
+            border: gray dotted 3px;
+        }
+        form{
+            border: white solid 3px;
+        }
+        #YHire{
+            width:90%;
+            position:absolute;
+            left:5%;
+            display:inline-block;
+            display:none;
+        }
+        #NHire{
+            width:90%;
+            position:absolute;
+            left:5%;
+            display:none;
+        }
+}
